@@ -1,0 +1,223 @@
+<!--Aplicativo escolhido : Instagram
+ https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR
+ -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fdfdfe">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="#125687">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/insta"
+                android:layout_marginLeft="10dp"
+                android:clickable="true" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/direct"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fdfdfe">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@mipmap/ic_usuario"
+            android:layout_marginTop="5dp"
+            android:clickable="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google"
+                android:id="@+id/textView"
+                android:textColor="#1d3a7e"
+                android:layout_marginTop="13dp"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google I/O"
+                android:id="@+id/textView2"
+                android:textColor="#0054cf"
+                android:clickable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29m"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="278dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/instagram"
+        android:layout_marginTop="16dp"
+        android:background="#fdfdfe" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@drawable/heart"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:contextClickable="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6"
+            android:src="@drawable/coment"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:contextClickable="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="246dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:src="@drawable/mais"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#25272a"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:background="#25272a">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView8"
+                android:src="@drawable/home"
+                android:layout_gravity="left"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="#070808" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView9"
+                android:src="@drawable/find"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:contextClickable="true"
+                android:clickable="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView10"
+                android:src="@drawable/post"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:focusableInTouchMode="true" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView11"
+                android:src="@drawable/history"
+                android:focusableInTouchMode="true"
+                android:contextClickable="true"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView12"
+            android:src="@drawable/you"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:focusableInTouchMode="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
